@@ -12,9 +12,7 @@ public class Cat implements Predator, Prey {
         System.out.println("Cats can also be preys");
     }
 
-
-
-   public void Test(){
+   public void Conccrete(){
         System.out.println("Concrete Methods implemented");
     }
 }

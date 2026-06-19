@@ -28,12 +28,16 @@ public class Main {
 		//		cat.Sound();
 
 		// INTERFACES
+		//In Java, an Interface is a blueprint of a class.
+		// It is a collection of abstract methods (methods without a body) and constant variables,
+		// though as we saw, it can also contain certain types of concrete methods in modern Java.
 		//  can have different methods (concrete, abstract)
-		//It allows a child class to implement more than one interface from the paren
+		//It allows a child class to implement more than one interface from the parent
 		Cat cat = new Cat();
 		cat.Predators();
 		cat.Preys();
 		cat.Test();
+		cat.Conccrete();
 		//        Dog dog  = new Dog();
 		//        dog.Predators();
 		//        dog.Preys();
