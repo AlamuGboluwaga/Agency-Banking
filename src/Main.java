@@ -1,12 +1,7 @@
-import Abstraction.Animal;
 //import Interface.Dog;
-import Interface.Cat;
 //import Abstraction.Cat;
 //import Abstraction.Dog;
-import Polymophism.Calculator;
-import inheritance.Female;
-import inheritance.Human;
-import inheritance.Male;
+import Polymophism.CompileTimePolymophism.Calculator;
 
 public class Main {
 

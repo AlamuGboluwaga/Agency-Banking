@@ -1,4 +1,4 @@
-package Polymophism;
+package Polymophism.CompileTimePolymophism;
 public class Calculator {
     // Method to add two integers
    public int add(int a, int b) {
