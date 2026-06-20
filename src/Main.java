@@ -2,6 +2,8 @@
 //import Abstraction.Cat;
 //import Abstraction.Dog;
 import Polymophism.CompileTimePolymophism.Calculator;
+import RunTimePolymophism.CreditCardProcessor;
+import RunTimePolymophism.PaymentProcessor;
 
 public class Main {
 
@@ -55,5 +57,16 @@ public class Main {
         System.out.println(calc.add(5, 10));      // Calls the first method
         System.out.println(calc.add(5, 10, 15));  // Calls the second method
         System.out.println(calc.add(5.5, 4.5));   // Calls the third method
+
+
+
+        // Upcasting: Parent reference points to Child objects
+        PaymentProcessor payment1 = new CreditCardProcessor();
+        PaymentProcessor payment2 = new PaymentProcessor();
+
+        // Even though the reference type is PaymentProcessor,
+        // Java executes the specific subclass methods at runtime.
+        payment1.processPayment(100.0); // Output: Processing credit card payment...
+        payment2.processPayment(50.0);  // Output: Processing PayPal payment...
 	}
 }
